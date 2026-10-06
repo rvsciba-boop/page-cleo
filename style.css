@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace ;
+
+    background:linear-gradient(#058AAE, #E8B08A);
+
+    min-height: 100vh;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+
+    overflow: hidden;
+
+    transition: 0.5s;
+
+}
+
+#caixa{
+    width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0,0.3);
+
+}
+
+#titulo{
+    color:#058AAE;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#texto{
+    color: #E8B08A;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#cleo{
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+button{
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#botao{
+    background-color: #E8B08A;
+    color: white;
+}
+
+#botao:hover{
+transform: scale(1.08);
+}
+
+#tema{
+    background-color: black;
+    color: white;
+}
+
+#tema:hover{
+    transform:scale(1.08);
+
+}
